@@ -1,0 +1,32 @@
+.AdminPage {
+  background: url("./images/background.png");
+  display: flex; /* Enable grid layout for the background */
+  height: 100vh; /* Make the background fill the viewport height */
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar {
+  background-color: whitesmoke;
+  width: 150rem;
+  margin-top: -750px;
+  display: flex;
+  justify-content: space-between;
+}
+.AdminPage button {
+  width: 7%;
+  height: 45px;
+  background: rgb(0, 170, 255);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  text-decoration: wavy;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  float: right;
+  margin-right: 15px;
+  margin-top: -730px;
+}

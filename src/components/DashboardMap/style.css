@@ -1,0 +1,56 @@
+@import url("~leaflet/dist/leaflet.css");
+
+.leaflet-container {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+}
+
+.modalMap .leaflet-container {
+	position: absolute;
+	width: 70vw;
+	height: 60vh;
+	max-width: 42rem;
+	max-height: 40rem;
+	border-radius: 8px;
+}
+
+.modalMap .leaflet-control-container .leaflet-control-zoom {
+	display: none;
+}
+
+.leaflet-control-container .leaflet-control-zoom {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+.leaflet-control-zoom {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+.leaflet-control-attribution {
+	display: none;
+}
+
+.leaflet-marker-draggable {
+	display: none;
+}
+
+.leaflet-top.leaflet-right {
+	display: none;
+}
+
+.previousBookingPage .leaflet-popup-content {
+	margin: 1rem;
+}
+
+.previousBookingPage .leaflet-popup-close-button {
+	display: none;
+}
+
+.homePage .leaflet-popup-close-button {
+	display: none;
+}
